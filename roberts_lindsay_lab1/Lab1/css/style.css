@@ -1,0 +1,188 @@
+/* STYLING THE BODY AND BACKGROUND */
+
+* {	
+	color: #2E2E2E;
+	}
+
+html {
+	background-image: url('../images/shattered.png');
+	background-color: #EFEFEF;
+	}
+				
+body {
+	background-color: #FEFEFE;
+	border: solid;
+	border-width: 15px;
+	width: 960px;	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+/* STYLING THE HEADERS */
+				
+h1 {
+	font-family: 'Antic Didone', serif;
+	float: left;
+	width: 30%;
+	clear: both;
+	margin: 25px;
+	}
+	
+h1:first-letter {
+	color: red;
+	}
+	
+h2 {
+	font-family: 'Antic Didone', serif;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding: 0;
+	clear: both;
+	}
+				
+h3 {
+	font-family: 'Antic Didone', serif;
+	font-size: 18px;
+	margin-top: 25px;
+	margin-left: 25px;
+	padding: 0;
+	clear: both;
+	}
+	
+/* STYLING THE LISTS */
+			
+ul {
+	margin: 0;
+	margin-top: 25px;
+	padding: 0;
+	list-style-type: none;
+	}
+	
+ol {
+	margin-left: 10px;
+	margin-bottom: 30px;
+	}
+				
+ol li {
+	font-family: 'Antic Didone', serif;
+	list-style-type: square;
+	}
+
+ol li span {
+	color: red;
+	font-style: italic;
+	}
+
+/* STYLING THE LINKS */
+
+a:link {
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: bold;
+	display:block;
+	float:right;
+	border-bottom: 8px solid #424242;
+	background-color: #2E2E2E;
+	width: 109px;
+	height: 30px;
+	text-decoration: none;
+	color: #EFEFEF;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 2px;
+	}
+				
+a:visited {
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: bold;
+	display:block;
+	float:right;
+	border-bottom: 8px solid #424242;
+	background-color: #2E2E2E;
+	width: 109px;
+	height: 30px;
+	text-decoration: none;
+	color: #EFEFEF;
+	text-align: center;
+	line-height: 35px;
+	}
+		
+a:hover {
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: bold;
+	display:block;
+	float:right;
+	border-bottom: 8px solid #FC3C3C;
+	background-color: #D31B1B;
+	width: 109px;
+	height: 30px;
+	text-decoration: none;
+	color: #EFEFEF;
+	text-align: center;
+	line-height: 35px;
+	}
+		
+a:active {
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: bold;
+	display:block;
+	float:right;
+	border-bottom: 8px solid #FC3C3C;
+	background-color: #D31B1B;
+	width: 109px;
+	height: 30px;
+	text-decoration: none;
+	color: #EFEFEF;
+	text-align: center;
+	line-height: 35px;
+	}
+	
+/* SYLING THE PARAGRAPHS */
+				
+.p1, .p2, .p3, .p4, .p5 {
+	font-family: 'Pontano Sans', sans-serif;
+	clear: both;
+	}
+	
+.p1:first-letter {
+	font-size: 24px;
+	font-family: 'Antic Didone', serif;
+	color: red;
+	}
+				
+.p2:first-letter {
+	font-size: 24px;
+	font-family: 'Antic Didone', serif;
+	color: red;
+	}
+
+.p3:first-letter {
+	font-size: 24px;
+	font-family: 'Antic Didone', serif;
+	color: red;
+	}
+
+.p4:first-letter {
+	font-size: 24px;
+	font-family: 'Antic Didone', serif;
+	color: red;
+
+	}
+			
+.p5:first-letter {
+	font-size: 24px;
+	font-family: 'Antic Didone', serif;
+	color: red;
+	}
+	
+/* STYLING THE FOOTER */
+			
+#footer {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 11px;
+	text-align: center;
+	}
