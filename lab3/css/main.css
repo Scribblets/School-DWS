@@ -43,8 +43,8 @@ ol, ul {
 	width: 175px;
 	float: left;
 	outline: 25px solid #79879E;
-	padding: 10px 10px 30000px 10px;
-	margin: 0px 20px -30000px -20px;	
+	padding: 10px 10px 30000px 10px; /* This is the only viable solution */
+	margin: 0px 20px -30000px -20px; /* without using JavaScript. */
 	}
 
 
@@ -215,5 +215,8 @@ h3 {
 #footer p {
 	font-size: 12px;
 	text-align: center;
+	margin-top: 50px;
+	border-top: 1px dotted #79879E;
+	border-bottom: 1px dotted #79879E;
 	clear: both;
 	}
