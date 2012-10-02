@@ -39,7 +39,7 @@ ol, ul {
 	
 #secondary-content {
 	background-color: #CED6E2;
-	width: 22%;
+	width: 200px;
 	float: left;
 	border-right: 1px dotted #79879E;
 	padding: 10px;
@@ -131,6 +131,20 @@ h2 {
 h3 {
 	font-size: 32px;
 	}
+	
+	
+	
+/* !Sections
+======================================== */
+#main-content #content #primary-section {
+	float: right;
+	width: 698px;
+	}
+
+#main-content #content #secondary-section {
+	float: right;
+	width: 698px;
+	}
 
 
 /* !Paragraphs
@@ -188,4 +202,5 @@ h3 {
 #main-content #content #footer p {
 	font-size: 12px;
 	text-align: center;
+	clear: both;
 	}
