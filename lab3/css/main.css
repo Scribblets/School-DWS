@@ -34,16 +34,17 @@ ol, ul {
 	margin-right: auto;
 	border-left: 25px solid #79879E;
 	border-right: 25px solid #79879E;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
+	overflow: hidden;
 	}
 	
 #secondary-content {
 	background-color: #CED6E2;
-	width: 200px;
+	width: 175px;
 	float: left;
-	border-right: 1px dotted #79879E;
-	padding: 10px;
-	margin: 10px 20px 10px -20px;
+	outline: 25px solid #79879E;
+	padding: 10px 10px 30000px 10px;
+	margin: 0px 20px -30000px -20px;	
 	}
 
 
@@ -126,10 +127,12 @@ h2, h3 {
 
 h2 {
 	font-size: 36px;
+	border-top: 1px dotted #CED6E2;
+	padding-top: 30px;
 	}
 
 h3 {
-	font-size: 32px;
+	font-size: 28px;
 	}
 	
 	
@@ -139,6 +142,7 @@ h3 {
 #main-content #content #primary-section {
 	float: right;
 	width: 698px;
+	padding-top: 10px;
 	}
 
 #main-content #content #secondary-section {
@@ -172,13 +176,22 @@ h3 {
 #photo-wrap {
 	float: left;
 	margin-right: 10px;
-	padding-top: 10px;
+	margin-top: 10px;
 	}
 
 
 
 /* !Gallery
 ======================================== */
+#gallery li a img {
+	margin-bottom: 8px;
+	border: 10px solid #CED6E2;
+	outline: 1px dotted #79879E;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
 #gallery li a:link {
 	opacity: 0.5;
 	}
@@ -199,7 +212,7 @@ h3 {
 
 /* !Footer
 ======================================== */
-#main-content #content #footer p {
+#footer p {
 	font-size: 12px;
 	text-align: center;
 	clear: both;
