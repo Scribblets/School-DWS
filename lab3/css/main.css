@@ -202,6 +202,8 @@ h3 {
 
 #gallery li a:hover {
 	opacity: 1;
+	-moz-transition: opacity .35s ease-in-out;
+	transition: opacity .35s ease-in-out;
 	}
 
 #gallery li a:active {
