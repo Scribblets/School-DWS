@@ -1,0 +1,111 @@
+/* !CSS Reset
+======================================== */
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, 
+a, ol, ul, li {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+
+
+
+/* !Background
+======================================= */
+body {
+	background: -moz-linear-gradient(top center, #000, #000, rgba(0, 0, 0, 0) 75%), url("../images/bg.png");
+	background: linear-
+	}
+	
+#wrapper {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+
+/* !Navigation
+======================================== */
+nav {
+	/* float: right; */
+	}
+
+nav ul {
+	list-style: none;
+	width: 600px;
+	height: 100px;
+	overflow: hidden;
+	}
+
+nav ul li {
+	float: left;
+	}
+
+nav ul li a {
+	display: block;
+	background: url("../images/global-nav.jpg") no-repeat;
+	text-indent: -9999px;
+	}
+	
+/* ----- !Products ----- */
+#products {
+	width: 200px;
+	height: 100px;
+	}
+#products:hover {
+	background-position: 0px -100px;
+	}
+#products:active {
+	background-position: 0px -200px;
+	}
+
+/* ----- !Shop ----- */
+#shop {
+	width: 200px;
+	height: 100px;
+	background-position: -200px 0px;
+	}
+#shop:hover {
+	background-position: -200px -100px;
+	}
+#shop:active {
+	background-position: -200px -200px;
+	}
+
+/* ----- !Support ----- */
+#support {
+	width: 200px;
+	height: 100px;
+	background-position: -400px 0px;
+	}
+#support:hover {
+	background-position: -400px -100px;
+	}
+#support:active {
+	background-position: -400px -200px;
+	}
+	
+
+
+/* !CTA Button
+======================================== */
+#cta {
+	position: relative;
+	}
+
+#cta .button {
+	display: block;
+	background-color: #01E900;
+	width: 260px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #2E2E2E;
+	position: absolute;
+	top: 270px;
+	left: 35px;
+	}
