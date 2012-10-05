@@ -32,7 +32,7 @@ header {
 	}
 
 .container {
-	width: 950px;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -115,7 +115,7 @@ overflow: hidden;
 /* ----- !Swap ----- */
 #cta > h1:first-child {
     position: relative;
-    top: 500px;
+    top: 620px;
     color: #FFF;
 }
 
@@ -157,12 +157,14 @@ overflow: hidden;
 	background: linear-gradient(#60EA00, #4CB700);
 	}
 	
-	
-	
 /* !Content
 ======================================== */
 h1, h2, h3, p, ul, dt, dd {
 	font: 12px/2 'Droid Sans', sans-serif;
+	}
+
+#gallery-container .container h2 {
+	margin-top: -25px;
 	}
 
 h1, h2, h3 {
@@ -180,6 +182,11 @@ dt {
 	margin-top: 10px;
 	}
 
+#pressrelease {
+	position: relative;
+	top: 120px; 
+	}
+
 /* !Gallery
 ======================================== */
 #gallery-container {
@@ -187,7 +194,7 @@ dt {
 	background: url("../images/logo-bg.jpg") repeat-x;
 	background-size: 100% 112px;
 	position: relative;
-	top: -700px;
+	top: -675px;
 	}
 
 #gallery li {
@@ -195,11 +202,10 @@ dt {
 	float: left;
 	width: 188px;
 	height: auto;
-	border-left: 1px solid rgba(0, 0, 0, 0);
-	border-right: 1px solid rgba(0, 0, 0, 0);
 	}
 
 #gallery li img:hover {
-	border-left: 1px solid #2B2B2B;
-	border-right: 1px solid #2B2B2B;
+	width: 188px;
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.1);
 	}
