@@ -1,0 +1,209 @@
+/* !CSS Reset
+======================================== */
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, 
+a, ol, ul, li {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	vertical-align: baseline;
+	}
+
+
+
+/* !Background
+======================================= */
+body {
+	background: -moz-linear-gradient(top center, #000, #000, rgba(0, 0, 0, 0) 75%), url("../images/bg.png");
+	background: linear-gradient(top center, #000, #000, rgba(0, 0, 0, 0) 75%), url("../images/bg.png");
+	}
+	
+#wrapper {
+	width: 100%;
+	}
+
+
+
+/* !Navigation Bar
+======================================== */
+header {
+	background: url("../images/logo-bg.jpg") repeat-x;
+	}
+
+.container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#logo {
+	display: block;
+	background: url("../images/logo.png") no-repeat left center;
+	float: left;
+	margin-top: 0px;
+	width: 340px;
+	height: 100px;
+	color: #FFF;
+	}
+	
+nav ul {
+	list-style: none;
+	width: 600px;
+	height: 100px;
+	overflow: hidden;
+	}
+
+nav ul li {
+	float: left;
+	}
+
+nav ul li a {
+	display: block;
+	background: url("../images/global-nav.jpg") no-repeat;
+	}
+
+.hide-text {
+text-indent: 200%;
+white-space: nowrap;
+overflow: hidden;
+}
+	
+/* ----- !Products ----- */
+#products {
+	width: 200px;
+	height: 100px;
+	background-position: 0px 0px;
+	}
+#products:hover {
+	background-position: 0px -100px;
+	}
+#products:active {
+	background-position: 0px -200px;
+	}
+
+/* ----- !Shop ----- */
+#shop {
+	width: 200px;
+	height: 100px;
+	background-position: -200px 0px;
+	}
+#shop:hover {
+	background-position: -200px -100px;
+	}
+#shop:active {
+	background-position: -200px -200px;
+	}
+
+/* ----- !Support ----- */
+#support {
+	width: 200px;
+	height: 100px;
+	background-position: -400px 0px;
+	}
+#support:hover {
+	background-position: -400px -100px;
+	}
+#support:active {
+	background-position: -400px -200px;
+	}
+
+	
+
+/* !CTA Button
+======================================== */
+/* ----- !Swap ----- */
+#cta > h1:first-child {
+    position: relative;
+    top: 500px;
+    color: #FFF;
+}
+
+#cta > h1 + div > img {
+    position: relative;
+    top: -18px;
+}
+
+#cta {
+	position: relative;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#cta .button {
+	position: absolute;
+	top: 270px;
+	left: 35px;
+	text-decoration: none;
+	display: block;
+	font: bold 16px/50 'Droid Sans', sans-serif;
+	text-transform: uppercase;
+	width: 260px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #60EA00;
+	border-radius: 50px;
+	box-shadow: 0 0 8px 8px rgba(96, 234, 0, 0.1);
+	background: -moz-linear-gradient(#1C1C1C, #000000);
+	background: linear-gradient(#1C1C1C, #000000);
+	}
+	
+#cta .button:hover {
+	color: #222;
+	box-shadow: 0 0 8px 8px rgba(96, 234, 0, 0.2);
+	background: -moz-linear-gradient(#60EA00, #4CB700);
+	background: linear-gradient(#60EA00, #4CB700);
+	}
+	
+	
+	
+/* !Content
+======================================== */
+h1, h2, h3, p, ul, dt, dd {
+	font: 12px/2 'Droid Sans', sans-serif;
+	}
+
+h1, h2, h3 {
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 25px;
+	}
+
+p, ul, dd, dt {
+	color: #AAA;
+	}
+
+dt {
+	font-weight: bold;
+	margin-top: 10px;
+	}
+
+/* !Gallery
+======================================== */
+#gallery-container {
+	position: relative;
+	top: -700px;
+	}
+	
+#gallery {
+	list-style: none;
+	overflow: hidden;
+	background: url("../images/logo-bg.jpg") repeat-x;
+	background-size: 100% 112px;
+	}
+
+#gallery li img {
+	float: left;
+	vertical-align: middle;
+	width: 188px;
+	height: auto;
+	border-left: 1px solid rgba(0, 0, 0, 0);
+	border-right: 1px solid rgba(0, 0, 0, 0);
+	}
+
+#gallery li img:hover {
+	border-left: 1px solid #2B2B2B;
+	border-right: 1px solid #2B2B2B;
+	}
