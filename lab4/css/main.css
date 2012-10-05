@@ -182,21 +182,24 @@ dt {
 
 /* !Gallery
 ======================================== */
-#gallery-container {
-	position: relative;
-	top: -700px;
-	}
+
 	
-#gallery {
-	list-style: none;
+#gallery-container {
 	overflow: hidden;
 	background: url("../images/logo-bg.jpg") repeat-x;
 	background-size: 100% 112px;
+	position: relative;
+	top: -700px;
 	}
 
-#gallery li img {
+#gallery ul {
+	width: 950px;
+	margin: 0 auto;
+	}
+
+#gallery li {
+	list-style: none;
 	float: left;
-	vertical-align: middle;
 	width: 188px;
 	height: auto;
 	border-left: 1px solid rgba(0, 0, 0, 0);
