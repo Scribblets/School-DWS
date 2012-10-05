@@ -182,19 +182,12 @@ dt {
 
 /* !Gallery
 ======================================== */
-
-	
 #gallery-container {
 	overflow: hidden;
 	background: url("../images/logo-bg.jpg") repeat-x;
 	background-size: 100% 112px;
 	position: relative;
 	top: -700px;
-	}
-
-#gallery ul {
-	width: 950px;
-	margin: 0 auto;
 	}
 
 #gallery li {
