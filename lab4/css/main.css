@@ -20,6 +20,10 @@ body {
 	}
 	
 #wrapper {
+	width: 100%;
+	}
+
+#main-content {
 	width: 940px;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,17 +33,14 @@ body {
 
 /* !Navigation
 ======================================== */
-body {
-	position: relative;
+header {
+	background: url("../images/logo-bg.jpg") repeat-x;
 	}
 
-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 100px;
-	background: url("../images/logo-bg.jpg") repeat-x;
+#container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
 	}
 
 #logo {
