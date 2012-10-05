@@ -17,7 +17,6 @@ a, ol, ul, li {
 ======================================= */
 body {
 	background: -moz-linear-gradient(top center, #000, #000, rgba(0, 0, 0, 0) 75%), url("../images/bg.png");
-	background: linear-
 	}
 	
 #wrapper {
@@ -131,7 +130,7 @@ overflow: hidden;
 	font-weight: bold;
 	text-align: center;
 	line-height: 50px;
-	color: ##222222;
+	color: #222222;
 	position: absolute;
 	top: 270px;
 	left: 35px;
