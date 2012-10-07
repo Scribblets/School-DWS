@@ -190,22 +190,6 @@ dt {
 	background-size: 100% 112px;
 	}
 
-#inset-borders {
-	width: 958px;
-	margin-left: auto;
-	margin-right: auto;
-	border-left: 1px solid #CCC;
-	border-right: 1px solid #CCC;
-	}
-
-#outer-borders {
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	border-left: 1px solid #111;
-	border-right: 1px solid #111;
-	}
-
 #gallery li {
 	list-style: none;
 	float: left;
@@ -222,15 +206,41 @@ dt {
 /* !Modules
 ======================================== */
 /* ----- !Overview ----- */
-#overview, #features, #techspecs {
+#main_info {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
+	}
+
+#overview, #features {
+	width: 440px;
+	padding-right: 40px;
+	float: left;
+	}
+
+#bottom-container {
+	background-color: #141414;
+	margin-top: -7px;
+	padding-top: 5px;
+	}
+
+#techspecs {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+
+#techspecs ul {
+	list-style: none;
 	}
 
 /* !Footer
 ========================================= */
-footer p {
+footer p, #techspecs h2, ul, li {
 	text-align: center;
 	font-size: 10px;
+	color: #333;
 	}
+
