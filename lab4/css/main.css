@@ -115,7 +115,7 @@ overflow: hidden;
 /* ----- !Swap ----- */
 #cta > h1:first-child {
     position: relative;
-    top: 620px;
+    top: 500px;
     color: #FFF;
 }
 
@@ -126,7 +126,7 @@ overflow: hidden;
 
 #cta {
 	position: relative;
-	width: 940px;
+	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -182,19 +182,28 @@ dt {
 	margin-top: 10px;
 	}
 
-#pressrelease {
-	position: relative;
-	top: 120px; 
-	}
-
 /* !Gallery
 ======================================== */
 #gallery-container {
 	overflow: hidden;
 	background: url("../images/logo-bg.jpg") repeat-x;
 	background-size: 100% 112px;
-	position: relative;
-	top: -675px;
+	}
+
+#inset-borders {
+	width: 958px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	}
+
+#outer-borders {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid #111;
+	border-right: 1px solid #111;
 	}
 
 #gallery li {
@@ -207,7 +216,7 @@ dt {
 #gallery li img:hover {
 	width: 188px;
 	height: auto;
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(0, 0, 0, 0.3);
 	}
 
 /* !Modules
@@ -217,4 +226,11 @@ dt {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	}
+
+/* !Footer
+========================================= */
+footer p {
+	text-align: center;
+	font-size: 10px;
 	}
