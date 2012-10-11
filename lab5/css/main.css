@@ -247,7 +247,11 @@ h3 {
 	float: left;
 	width: 25%;
 	}
+}
 
-/* ----- !Gallery ----- */
-
+@media handheld and (max-width: 768px) {
+#secondary-section {
+	display: none;
+	background-color: red;
+	}
 }
