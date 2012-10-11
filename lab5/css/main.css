@@ -43,7 +43,7 @@ img {
 	border-left: 25px solid #79879E;
 	border-right: 25px solid #79879E;
 	overflow: hidden;
-	}
+	}	
 
 
 
@@ -184,7 +184,7 @@ h3 {
 ======================================== */
 #gallery li a {
 	float: left;
-	width: 33%;
+	width: 29.7392%;
 	padding: 1.6304%; /* 15px / 920px */
 	border-top: 10px solid #79879E;
 	border-bottom: 10px solid #79879E;
