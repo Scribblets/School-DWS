@@ -31,10 +31,6 @@ img {
 	background: url("../images/diagonal-noise.png");
 	}
 
-#main {
-	background-color: #FEFEFE;
-	}
-
 #content {
 	background-color: #CED6E2;
 	max-width: 920px;
@@ -127,32 +123,7 @@ h3 {
 	font-size: 1.375em;
 	clear: left;
 	}
-
-#more-info {
-	font-size: 0.625em;
-	text-indent: 0.938em;
-	}
 	
-
-	
-/* !Sections
-======================================== */
-#main {
-	float: left;
-	width: 53.2608%; /* 490px / 920px */
-	padding: 2.1739%; /* 20px / 920px */
-	}
-
-#secondary-section {
-	float: left;
-	width: 38.0434%; /* 350px / 920px */
-	padding: 5px 2.1739% 20px 2.1739%; /* 20px / 920px */
-	}
-
-
-
-/* !Paragraphs
-======================================== */
 #main-content p, .more-info, .more-info:hover {
 	font: 0.938em/2 'Caudex', serif;
 	color: #222;
@@ -170,6 +141,23 @@ h3 {
 .more-info:hover {
 	background-color: #DAE4F2;
 	border-bottom: 1px dotted;
+	}
+	
+
+	
+/* !Sections
+======================================== */
+#main {
+	float: left;
+	width: 53.2608%; /* 490px / 920px */
+	padding: 2.1739%; /* 20px / 920px */
+	background-color: #FEFEFE;
+	}
+
+#secondary-section {
+	float: left;
+	width: 38.0434%; /* 350px / 920px */
+	padding: 5px 2.1739% 20px 2.1739%; /* 20px / 920px */
 	}
 
 #photo-wrap {
@@ -228,9 +216,9 @@ h3 {
 
 
 
-/* !Media Queries
+/* !Media Query #1
 ======================================== */
-@media screen and (max-width: 825px) {
+@media all and (max-width: 855px) {
 #header ul {
 	list-style: none;
 	float: right;
@@ -239,7 +227,6 @@ h3 {
 	font-weight: 700;
 	}
 
-/* ----- !Navigation ----- */
 #header ul li a {
 	display: block;
 	text-decoration: none;
@@ -247,11 +234,56 @@ h3 {
 	float: left;
 	width: 25%;
 	}
+
+h2 {
+	font-size: 2em; /* 32px */
+	}
+
+h3 {
+	font-size: 1.25em; /* 20px */
+	}
+	
+#main-content p, .more-info, .more-info:hover {
+	font-size: 0.813em; /* 13px */
+	}
+
+#footer p {
+	font-size: 0.625em; /* 10px */
 }
 
-@media handheld and (max-width: 768px) {
-#secondary-section {
+
+
+/* !Media Query #2
+======================================= */
+@media all and (max-width: 768px) {
+#main, #secondary-section, #footer p {
+	width: 97.8260%; /* 900px / 920px */
+	float: none;
+	padding: 2.1739;
+	}
+
+#see-also {
 	display: none;
-	background-color: red;
+	}
+
+h2 {
+	font-size: 2.25em; /* 36px */
+	}
+
+h3 {
+	font-size: 1.375em; /* 24px */
+	}
+	
+#main-content p, .more-info, .more-info:hover, #secondary-section {
+	font-size: 0.938em; /* 15px */
+	}
+
+#footer p {
+	font-size: 0.750em; /* 12px */
 	}
 }
+
+
+
+/* !Media Query #3
+======================================= */
