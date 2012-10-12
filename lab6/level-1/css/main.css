@@ -1,0 +1,106 @@
+/* !CSS Reset
+==================== */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, em, ul, li,
+fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+
+
+
+/* !Background
+===================== */
+html {
+	background: url('../images/bg.jpg') no-repeat center center fixed; 
+	-moz-background-size: cover;
+	background-size: cover;
+    }  
+
+#container {
+	width: 535px;
+	margin: 250px auto;
+	left: 50%;
+	top: 50%;
+	border: 3px solid rgba(0, 0, 0, .64);
+	}
+
+#container-inner {
+	background-color: rgba(0, 0, 0, .32);
+	padding: 5px 40px;
+	}
+
+h1 {
+	font: 60px 'Alex Brush', cursive;
+	text-shadow: 1px 1px #000;
+	color: #FFF;
+	}
+
+label {
+	font: 100 24px 'Lato', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
+	color: #FFF;
+	}
+
+
+
+
+/* !Labels
+==================== */
+label[for="words"] {
+	}
+
+/* !Form
+==================== */
+input[type="text"] {
+	border-radius: 30px;
+	height: 24px;
+	width: 225px;
+	border-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 100 18px 'Lato', sans-serif;
+	color: #FFF;
+	background: -moz-linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
+	background: linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
+	box-shadow: inset 1px 1px 3px 3px rgba(0,0,0,.15), inset 1px .5px 1px 0 rgba(0,0,0,.4), 1px .5px 1px 0 rgba(255,255,255,.25);
+	}
+
+.styled-select select {
+	background: transparent;
+	width: 250px;
+	height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 100 18px 'Lato', sans-serif;
+	color: #FFF;
+	border-style: none;
+}
+
+.styled-select {
+	width: 225px;
+	height: 25px;
+	overflow: hidden;
+	border-radius: 30px;
+	background: url('../images/arrow.png') no-repeat right, -moz-linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
+	background: url('../images/arrow.png') no-repeat right, linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
+	box-shadow: inset 1px 1px 3px 3px rgba(0,0,0,.15), inset 1px .5px 1px 0 rgba(0,0,0,.4), 1px .5px 1px 0 rgba(255,255,255,.25);
+	}
+
+.styled-select option {
+	background-color: rgba(255,255,255,.3);
+	box-shadow: 0 0 2px 0 #FFF;
+	}
