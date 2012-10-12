@@ -313,8 +313,8 @@ h3 {
 	}
 
 #content {
-	border-left: 5px solid #79879E;
-	border-right: 5px solid #79879E;
+	border-left: none;
+	border-right: none;
 	}
 
 #secondary-section {
