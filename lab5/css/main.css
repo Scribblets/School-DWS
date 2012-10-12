@@ -306,11 +306,6 @@ h3 {
 	position: relative;
 	top: -280px;
 	}
-	
-#container {
-	max-width: 920px;
-	padding: 0 0 10px;
-	}
 
 #content {
 	border-left: none;
@@ -319,5 +314,9 @@ h3 {
 
 #secondary-section {
 	display: none;
+	}
+
+#main, #secondary-section, #footer p {
+	padding: 1.0869%;
 	}
 }
