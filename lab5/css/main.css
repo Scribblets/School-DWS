@@ -316,7 +316,7 @@ h3 {
 	display: none;
 	}
 
-#container {
+#container, #gallery {
 	margin: 0;
 	padding: 0;
 	}
