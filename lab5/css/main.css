@@ -36,7 +36,7 @@ img {
 	border-left: 25px solid #79879E;
 	border-right: 25px solid #79879E;
 	overflow: hidden;
-	}	
+	}
 
 #content, #container {
 	max-width: 920px;
@@ -296,6 +296,7 @@ h3 {
 	position: relative;
 	top: 69px;
 	border-top: 1px dotted #34393F;
+	background-color: rgba(255, 255, 255, 0.05);
 	}
 
 #header h1 {
@@ -309,6 +310,11 @@ h3 {
 #container {
 	max-width: 920px;
 	padding: 0 0 10px;
+	}
+
+#content {
+	border-left: 15px solid #79879E;
+	border-right: 15px solid #79879E;
 	}
 
 #secondary-section {
