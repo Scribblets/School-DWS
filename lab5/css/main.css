@@ -257,11 +257,11 @@ h3 {
 ======================================= */
 @media all and (max-width: 768px) {
 #main, #secondary-section, #footer p {
-	width: 97.8260%; /* 900px / 920px */
+	width: 95.6521%; /* 900px / 920px */
 	float: none;
-	padding: 2.1739;
+	padding: 2.1739%;
 	}
-
+	
 #see-also {
 	display: none;
 	}
