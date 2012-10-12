@@ -225,7 +225,7 @@ h3 {
 	}
 
 #main, #secondary-section, #footer p {
-	width: 95.6521%; /* 900px / 920px */
+	width: 95.652173913043%; /* 880px / 920px */
 	float: none;
 	padding: 2.1739%;
 	margin: 0;
