@@ -62,11 +62,12 @@ label {
 ==================== */
 #wrapper {
 	width: 600px;
+	float: left;
 	}
 label[for="words"], label[for="keywords"], label[for="searchin"] {
 	margin: 10px 20px 0 0;
 	display: inline-block; 
-	width: 180px; 
+	width: 160px; 
 	text-align: right;
 	}
 
