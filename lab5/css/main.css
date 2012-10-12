@@ -280,10 +280,11 @@ h3 {
 }
 
 /* ----- !Nav Fix ----- */
-@media all and (max-width: 445px);
+@media all and (max-width: 445px) {
 #header ul {
 	font-size: 0.75em; /* 12px */
 	}
+}
 
 /* ----- !Mobile Portrait ----- */
 @media all and (max-width: 380px) {
