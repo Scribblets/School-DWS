@@ -1,24 +1,3 @@
-/* !CSS Reset
-==================== */
-html, body, div, span,
-h1, h2, h3, h4, h5, h6, p,
-a, em, ul, li,
-fieldset, form, label, legend {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-body {
-    line-height: 1;
-}
-ul {
-    list-style: none;
-}
-
 /* !Background
 ===================== */
 html {
@@ -26,10 +5,12 @@ html {
     -moz-background-size: cover;
     background-size: cover;
     }  
-    
+
 #container {
-    width: 535px;
-    margin: 50px auto;
+    width: 800px;
+    margin: 20px auto;
+    left: 50%;
+    top: 50%;
     border: 3px solid rgba(0, 0, 0, .64);
     }
 
@@ -39,7 +20,7 @@ html {
     }
 
 h1 {
-    font: 48px 'Alex Brush', cursive;
+    font: 60px 'Alex Brush', cursive;
     text-shadow: 1px 1px #000;
     color: #FFF;
     }
@@ -49,28 +30,46 @@ label {
     text-transform: uppercase;
     text-shadow: 1px 1px #000;
     color: #FFF;
-    clear: left;
-    display: block;
-    float: left;
-    margin-bottom: 0.5em;
-    padding-right: 10px;
-    text-align: right;
-    width: 150px;
     }
 
-/* ----- */
 
+
+
+/* !Labels
+==================== */
+#wrapper {
+    width: 600px;
+    float: left;
+    }
+
+label[for="words"], label[for="keywords"], label[for="searchin"] {
+    font: 100 24px 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+    color: #FFF;
+    margin: 10px 20px 0 0;
+    width: 160px;
+    text-align: right;
+    display: inline-block;
+    }
+
+label[for="words"] {
+	padding-bottom: 3px;
+	}
+
+/* !Form
+==================== */
 input[type="text"] {
 	position: relative;
     border-radius: 30px;
     margin-bottom: 10px;
-    height: 32px;
+    height: 24px;
     width: 215px;
     margin-left: 3px;
     border-style: none;
     padding-left: 5px;
     padding-right: 5px;
-    font: 100 22px 'Lato', sans-serif;
+    font: 100 18px 'Lato', sans-serif;
     color: #FFF;
     background: -moz-linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
     background: linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
@@ -80,17 +79,18 @@ input[type="text"] {
 .styled-select select {
     background: transparent;
     width: 250px;
-    height: 35px;
+    height: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    font: 100 22px 'Lato', sans-serif;
+    font: 100 18px 'Lato', sans-serif;
     color: #FFF;
     border-style: none;
 }
 
 .styled-select {
+	position: relative;
     width: 225px;
-    height: 35px;
+    height: 25px;
     overflow: hidden;
     border-radius: 30px;
     background: url('../images/arrow_down.png') no-repeat right, -moz-linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
@@ -112,11 +112,7 @@ input[type="text"] {
     color: #000;
     }
     
-/* ----- !Button (OK)
-==================== */
 #submit {
-	float: right;
-	margin-right: 125px;
 	border-style: none;
 	width: 125px;
 	height: 35px;
@@ -145,4 +141,3 @@ input[type="text"] {
 	background-color: rgba(255,255,255,1);
 	box-shadow: inset 1px 1px 0 0 rgba(0,0,0,1);
 	}
-

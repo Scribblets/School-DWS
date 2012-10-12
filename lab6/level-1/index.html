@@ -15,18 +15,18 @@
 		<form action="#" method="get">
 			<fieldset>
 				<!-- Search for: -->
-				<div>
-					<label for="words">Search for</label>
+				<div id="wrapper">
+					<label for="words"><span id="searchfor">Search for</span></label>
 					<div class="styled-select">
 					<select id="words">
-					  <option class="option-text">All of these words</option>
-					  <option class="option-text">Any of these words</option>
+					  <option><span class="option-text">All of these words</span></option>
+					  <option><span class="option-text">Any of these words</span></option>
 					</select>
 					</div> <!-- /styled-select -->
 					
 					<label for="keywords">Keywords</label><input type="text" name="keywords" value="" id="keywords" />
 					
-				</div>
+				</div> <!-- /wrapper -->
 				
 				<!-- Search in -->
 				<div>
@@ -34,9 +34,9 @@
 					
 					<div class="styled-select">
 					<select id="searchin">
-					  <option class="option-text">People</option>
-					  <option class="option-text">Places</option>
-					  <option class="option-text">Sports</option>
+					  <option><span class="option-text">People</span></option>
+					  <option><span class="option-text">Places</span></option>
+					  <option><span class="option-text">Sports</span></option>
 					</select>
 					</div> <!-- /styled-select -->
 				</div>
