@@ -32,12 +32,11 @@ body {
 #container {
 	margin: 0 auto;
 	width: 417px;
-	/*border: 5px solid #000;*/
+	overflow: hidden;
 	}
 
 #container-inner {
 	padding: 80px 45px 0 95px;
-	/*background-color: rgba(155,155,155,.5);*/
 	}
 
 /* !Font
@@ -88,4 +87,18 @@ textarea:focus {
 	background: url('../images/textarea_focus.png') no-repeat, rgba(255,255,255,0);
 	}
 
-	/*-moz-transform: rotate(-8deg);*/
+
+input[type=submit] {
+    background: url('../images/button.png') no-repeat;
+    border: 0;
+    display: block;
+    margin: 55px 0 0 55px;
+    height: 97px;
+    width: 202px;
+    text-indent: -9999px;
+	-moz-transform: rotate(-8deg);
+	}
+
+input[type=submit]:hover {
+	background: url('../images/button_hover.png') no-repeat;
+	}
