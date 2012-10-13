@@ -4,52 +4,51 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<title>Fancy Form Design: Advanced Search</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,100|Alex+Brush' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,100|Alex+Brush" rel="stylesheet" type="text/css" />
 </head>
 <body id="advanced-search">
 	<!-- Container -->	
-	<div id="container"><div id="container-inner">
-
-		<h1>Advanced Search</h1>
-		<form action="#" method="get">
-			<fieldset>
-				<!-- Search for: -->
-				<div id="wrapper">
-					<label for="words"><span id="searchfor">Search for</span></label>
-					<div class="styled-select">
-					<select id="words">
-					  <option><span class="option-text">All of these words</span></option>
-					  <option><span class="option-text">Any of these words</span></option>
-					</select>
-					</div> <!-- /styled-select -->
-					
-					<label for="keywords">Keywords</label><input type="text" name="keywords" value="" id="keywords" />
-					
-				</div> <!-- /wrapper -->
+	<div id="container">
+		<div id="container-inner">
+			<h1>Advanced Search</h1>
+			<form action="#" method="get">
+				<fieldset>
 				
-				<!-- Search in -->
-				<div>
-					<label for="searchin">Search in</label>
+					<!-- Search for -->
+					<div id="wrapper">
+						<label for="words">Search for</label>
+						<div class="styled-select">
+							<select id="words">
+					  			<option>All of these words</option>
+					  			<option>Any of these words</option>
+							</select>
+						</div> <!-- /styled-select -->
 					
-					<div class="styled-select">
-					<select id="searchin">
-					  <option><span class="option-text">People</span></option>
-					  <option><span class="option-text">Places</span></option>
-					  <option><span class="option-text">Sports</span></option>
-					</select>
-					</div> <!-- /styled-select -->
-				</div>
+						<label for="keywords">Keywords</label>
+						<input type="text" name="keywords" value="" id="keywords" />
+					</div> <!-- /wrapper -->
 				
+					<!-- Search in -->
+					<div>
+						<label for="searchin">Search in</label>
+						<div class="styled-select">
+							<select id="searchin">
+					  			<option>People</option>
+					  			<option>Places</option>
+					  			<option>Sports</option>
+							</select>
+						</div> <!-- /styled-select -->
+					</div>
 				
-				<!-- Controls -->
-				<div class="controls">
-					<input id="submit" name="submit" type="submit" value="Search" />
-				</div>
-			</fieldset>
-		</form>
-			
-	</div></div>	<!-- /Container -->
-	
+					<!-- Controls -->
+					<div class="controls">
+						<input id="submit" name="submit" type="submit" value="Search" />
+					</div>
+					
+				</fieldset>
+			</form>
+		</div> <!-- /container-inner -->
+	</div>	<!-- /container -->
 </body>
 </html>
