@@ -96,7 +96,7 @@ input[type="text"] {
     background: url('../images/arrow_down.png') no-repeat right, -moz-linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
     background: url('../images/arrow_down.png') no-repeat right, linear-gradient(top, rgba(50,50,50,.32), rgba(27,27,27,.32));
     box-shadow: inset 1px 1px 3px 3px rgba(0,0,0,.15), inset 1px .5px 1px 0 rgba(0,0,0,.4), 1px .5px 1px 0 rgba(255,255,255,.25);
-    display: inline-block; //Changes goes here
+    display: inline-block;
     }
 
 .styled-select option {
