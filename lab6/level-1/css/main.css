@@ -28,7 +28,7 @@ html {
     }  
     
 #container {
-    width: 535px;
+    width: 435px;
     margin: 50px auto;
     border: 3px solid rgba(0, 0, 0, .64);
     }
@@ -82,7 +82,7 @@ input[type="text"] {
     width: 250px;
     height: 35px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
     font: 100 22px 'Lato', sans-serif;
     color: #FFF;
     border-style: none;
@@ -116,7 +116,7 @@ input[type="text"] {
 ==================== */
 #submit {
 	float: right;
-	margin-right: 125px;
+	margin: 10px 25px 0 0;
 	border-style: none;
 	width: 125px;
 	height: 35px;
