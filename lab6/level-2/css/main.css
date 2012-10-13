@@ -60,9 +60,14 @@ label {
 input[type="text"] {
 	float: right;
 	border-style: none;
+	margin-top: -5px;
 	height: 25px;
 	width: 169px;
 	background: url('../images/input.png'), rgba(255,255,255,0);
+	}
+
+input[type="text"]:focus {
+	background: url('../images/input_focus.png'), rgba(255,255,255,0);
 	}
 
 input[type="text"], textarea {
@@ -77,6 +82,10 @@ textarea {
 	margin-left: 25px;
 	padding: 12px 10px;
 	background: url('../images/textarea.png') no-repeat, rgba(255,255,255,0);
+	}
+
+textarea:focus {
+	background: url('../images/textarea_focus.png') no-repeat, rgba(255,255,255,0);
 	}
 
 	/*-moz-transform: rotate(-8deg);*/
