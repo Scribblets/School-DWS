@@ -64,11 +64,11 @@ input[type="text"] {
 	position: relative;
     border-radius: 30px;
     margin-bottom: 10px;
+    margin-top: 5px;
     height: 32px;
-    width: 215px;
-    margin-left: 3px;
+    width: 210px;
     border-style: none;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-right: 5px;
     font: 100 22px 'Lato', sans-serif;
     color: #FFF;
@@ -116,7 +116,7 @@ input[type="text"] {
 ==================== */
 #submit {
 	float: right;
-	margin: 10px 25px 0 0;
+	margin: 10px 25px 10px 0;
 	border-style: none;
 	width: 125px;
 	height: 35px;
