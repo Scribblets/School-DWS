@@ -24,6 +24,71 @@ ul {
 /* !Background
 ===================== */
 body {
-
+	background: url('../images/body.png') top center no-repeat, url('../images/background.gif');
 	}
 
+/* !Container
+===================== */
+#container {
+	margin: 0 auto;
+	width: 417px;
+	/*border: 5px solid #000;*/
+	}
+
+#container-inner {
+	padding: 80px 45px 0 95px;
+	/*background-color: rgba(155,155,155,.5);*/
+	}
+
+/* !Font
+===================== */
+h1 {
+	font: 32px 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	}
+
+span {
+	display: none;
+	}
+
+label {
+	font: 18px 'Permanent Marker', cursive;
+	float: left;
+	clear: left;
+	}
+
+input[type="text"] {
+	float: right;
+	border-style: none;
+	height: 25px;
+	width: 169px;
+	background: url('../images/input.png'), rgba(255,255,255,0);
+	}
+
+input[type="text"], textarea {
+	font: 20px 'Reenie Beanie', cursive;
+	}
+
+textarea {
+	width: 245px;
+	height: 115px;
+	border-style: none;
+	resize: none;
+	margin-left: 25px;
+	padding: 12px 10px;
+	background: url('../images/textarea.png') no-repeat, rgba(255,255,255,0);
+	}
+
+	/*-moz-transform: rotate(-8deg);*/
+
+
+form input[type="submit"] {
+  width: 202px;
+  height: 97px;
+  padding: 97px 0 0;
+  margin: 0;
+  border: 0;
+  background: transparent url('../images/button.png') no-repeat center top;
+  overflow: hidden;
+  cursor: pointer; /* hand-shaped cursor */
+}

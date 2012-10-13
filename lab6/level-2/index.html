@@ -3,6 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="http://fonts.googleapis.com/css?family=Reenie+Beanie|Permanent+Marker" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/main.css" />
     <title>
       Fancy Form Design: Feedback
     </title>
@@ -23,12 +25,11 @@
               <label for="words">Your name</label> <input type="text" name="name" value="" id="name" />
             </div><!-- Email -->
             <div>
-              <label for="email">Your email address</label> <input type="text" name="email" value="" id="email" />
+              <label for="email">Your email <span>address</span></label> <input type="text" name="email" value="" id="email" />
             </div><!-- Feedback -->
             <div>
               <label for="feedback">Your feedback</label> 
-              <textarea cols="30" rows="6" id="feedback">
-              </textarea>
+              <textarea cols="30" rows="6" id="feedback"></textarea> <!-- Don't put space between tags. It screws up the input. -->
             </div><!-- Controls -->
             <div class="controls">
               <input id="submit" name="submit" type="submit" value="Submit feedback" />
