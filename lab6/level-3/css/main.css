@@ -1,8 +1,7 @@
 /* !CSS Reset
 ==================== */
 html, body, div, span,
-h1, h2, h3, h4, h5, h6, p,
-a, em, ul, li,
+h1, p, a, ul, li,
 fieldset, form, label, legend {
 	margin: 0;
 	padding: 0;
@@ -20,10 +19,157 @@ ul {
 }
 
 
-
-/* !Background
-===================== */
 body {
-
+	background: url('../images/gradient.gif') center no-repeat, #005B9C;
 	}
 
+/* !Layout
+==================== */
+#container {
+	width: 300px;
+	margin: 80px auto 0;
+	}
+
+#header {
+	width: 300px;
+	height: 30px;
+	padding: 15px;
+	background: #005B9C;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	}
+
+form {
+	padding: 15px;
+	width: 300px;
+	background: #B9DAED;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	}
+
+h1 {
+	float: left;
+	font: 600 24px 'Source Sans Pro', sans-serif;
+	color: #E8F0F4;
+	text-shadow: 1px 1px #000;
+	}
+	
+.log-in {
+	text-align: right;
+	color: #E8F0F4;
+	font: 400 14px/36px 'Source Sans Pro', sans-serif;
+	}
+
+.log-in a {
+	color: #F2CC21;
+	}
+
+label {
+	font: 600 14px 'Source Sans Pro', sans-serif;
+	width: 300px;
+	}
+
+label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
+	display: none;
+	}
+
+.introduction {
+	font: 100 14px 'Source Sans Pro', sans-serif;
+	margin-bottom: 15px;
+	}
+
+
+#section-dob {
+	margin-top: 30px;
+	}
+	
+#email, #password, #password_confirmation, #profile_link {
+	width: 283px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border: 1px solid #0C86C7;
+	background-color: #E8F0F4;
+	color: #8E8E8E;
+	}
+
+#email:focus, #password:focus, #password_confirmation:focus, #profile_link:focus {
+	border: 1px solid #F2CC21;
+	color: #2E2E2E;
+	}
+
+#field-profile-link {
+	position: relative;
+	}
+	
+.profile-link-prefix {
+	font-size: 13px;
+	font: 300 italic 14px 'Source Sans Pro', sans-serif;
+	position: absolute;
+	top: 54px;
+	left: 0;
+	}
+	
+#dob_clear {
+	overflow: hidden;
+	}
+
+.styled-select {
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+    background: url('../images/arrow.gif') no-repeat right, #E8F0F4;
+    background: url('../images/arrow.gif') no-repeat right, #E8F0F4;
+    margin-right: 8px;
+    display: inline-block;
+    border: 1px solid #0C86C7;
+    line-height: 30px;
+    float: left;
+    }
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 180px;
+}
+
+.note {
+	display: block;
+	clear: left;
+	font: 300 italic 14px 'Source Sans Pro', sans-serif;
+	}
+
+legend {
+	font: 600 14px 'Source Sans Pro', sans-serif;
+	}
+
+input[type="checkbox"] {
+	width: 20px;
+	float: left;
+	appearance: none;
+	border: 1px solid #0C86C7;
+	background-color: #E8F0F4;
+	}
+
+#field-agree-tos {
+	margin-top: 15px;
+	}
+	
+#field-agree-tos ul li label {
+	font: 300 14px 'Source Sans Pro', sans-serif;
+	}
+
+#field-agree-tos ul li label a {
+	font: 600 14px 'Source Sans Pro', sans-serif;
+	}
+	
+#submit {
+	float: right;
+	margin: 10px 8px 0 0;
+	border: none;
+	height: 30px;
+	width: 90px;
+    background: #F2CC21;
+    border-radius: 5px;
+    }
