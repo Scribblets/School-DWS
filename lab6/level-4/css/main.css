@@ -103,7 +103,7 @@ textarea {
 	height: 100px;
 	}
 	
-textarea:focus, input:focus {
+textarea:focus, input[type="text"]:focus {
 	background-color: #AAD35F;
 	}
 
@@ -148,6 +148,11 @@ textarea:focus, input:focus {
 	text-shadow: 1px 1px #565619;
 	float: right;
 	background-color: #ffff40;
+	}
+
+#submit:hover {
+	background-color: #FFFF7F;
+	cursor: pointer;
 	}
 
 /* !Efficient Stuff
