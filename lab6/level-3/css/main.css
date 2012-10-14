@@ -186,15 +186,19 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 ==================== */
 #submit {
 	float: right;
-	margin: 10px 8px 0 0;
+	margin: 15px 10px 10px 0;
 	border: none;
-	width: 90px;
-    background: #F2CC21;
-    border-radius: 5px;
+	width: 120px;
+	font-size: 16px;
+	color: #E8F0F4;
+	text-shadow: 1px 1px #00375E;
+    background: #005B9C;
+    border-radius: 3px;
     cursor: pointer;
     box-shadow: inset 1px 1px 0 0 rgba(255,255,255,.3), 1px 1px 0 0 rgba(0,0,0,.3);
     }
 
 #submit:hover {
-	background: #FFDB3F;
+	color: #FFDB3F;
+	background: #0A66A8;
 	}
