@@ -172,4 +172,6 @@ input[type="checkbox"] {
 	width: 90px;
     background: #F2CC21;
     border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px 1px rgba(255,255,255,.3), 1px 1px 0px 0px rgba(0,0,0,.3);
     }
