@@ -5,16 +5,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,300italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css" />
-	<script type="text/javascript" charset="utf-8">
-
-   $(document).ready(function()
-   {
-    $('#profile_link').bind("keypress keydown", function(event) {
-     $('#preview').text($('#profile_link').attr("value"));
-    });
-
-   });
- </script>
+	<link rel="javascript" href="js/script.js" />
+	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+	</script>
 	<title>Fancy Form Design: Sign Up</title>
 	
 	<!-- CSS -->
@@ -53,7 +46,7 @@
 				<!-- Profile Link -->
 				<div id="field-profile-link">
 					<label id="profile_link_text" for="profile_link">Your profile link</label>
-					<span class="profile-link-prefix">fitandawesome.com/</span><span id="preview">Test</span>
+					<span class="profile-link-prefix">fitandawesome.com/</span><span id="preview"></span>
 					<input type="text" name="profile_link" id="profile_link" class="required" />
 				</div>
 				
