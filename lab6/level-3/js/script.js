@@ -1,3 +1,3 @@
 $('#profile_link').keypress(function(){
-	$('#hello').text($(this).val());
+	$('#preview').text($(this).val());
 });
