@@ -3,10 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,300italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,300italic' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="css/main.css" />
-	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
-	</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<title>Fancy Form Design: Sign Up</title>
 	
 	<!-- CSS -->
@@ -53,7 +52,6 @@
 				<fieldset id="section-dob">
 					<legend><span>Birth date</span></legend>
 					<!-- Month -->
-					<div id="dob-clear">
 					<div>
 						<label for="dob_month">Month</label>
 						<div class="styled-select">
@@ -230,7 +228,6 @@
 						</select>
 						</div><!-- /styled-select -->
 					</div>
-					</div> <!-- /dob_clear -->
 					<em class="note">This is hidden by default from your profile.</em>
 				</fieldset>
 				
@@ -254,9 +251,9 @@
 		</form>
 			
 	</div></div>	<!-- /Container -->
-	<script>
+	<script type="text/javascript">
 		$(function(){
-			$('#profile_link').keypress(function(){
+			$('#profile_link').keyup(function(){
 				$('#preview').text($(this).val());
 			});
 		})

@@ -18,35 +18,67 @@ ul {
 	list-style: none;
 }
 
-
+/* !Background
+==================== */
 body {
 	background: url('../images/gradient.gif') center no-repeat, #005B9C;
 	}
 
-/* !Layout
-==================== */
-#container {
-	width: 300px;
-	margin: 80px auto 0;
-	}
-
 #header {
-	width: 300px;
-	height: 30px;
-	padding: 15px;
 	background: #005B9C;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 	}
 
 form {
-	padding: 15px;
-	width: 300px;
 	background: #B9DAED;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	}
 
+/* !Layout
+==================== */
+#container {
+	margin: 80px auto 0;
+	}
+
+#container, #header, form, label, #field-profile-link {
+	width: 300px;
+	}
+
+#header, #email, #password, #password_confirmation, 
+#profile_link, .styled-select, .styled-select select, #submit {
+	height: 30px;
+	}
+
+#header, form {
+	padding: 15px;
+	}
+
+/* !Links
+==================== */
+.log-in a {
+	color: #F2CC21;
+	text-decoration: none;
+	}
+
+.log-in a:hover {
+	color: #FFD42B;
+	border-bottom: 1px dotted #FFD42B;
+	}
+
+#field-agree-tos a {
+	color: #005B9C;
+	text-decoration: none;
+	}
+
+#field-agree-tos a:hover {
+	color: #1587D8;
+	border-bottom: 1px dotted #1587D8;
+	}
+
+/* !Typography
+==================== */
 h1 {
 	float: left;
 	font: 600 24px 'Source Sans Pro', sans-serif;
@@ -54,38 +86,36 @@ h1 {
 	text-shadow: 1px 1px #000;
 	}
 	
+.introduction {
+	font: 100 14px 'Source Sans Pro', sans-serif;
+	margin-bottom: 15px;
+	}
+	
 .log-in {
 	text-align: right;
 	color: #E8F0F4;
 	font: 400 14px/36px 'Source Sans Pro', sans-serif;
 	}
-
-.log-in a {
-	color: #F2CC21;
-	}
-
-label {
+	
+label, legend {
 	font: 600 14px 'Source Sans Pro', sans-serif;
-	width: 300px;
+	color: #2E2E2E;
 	}
 
 label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 	display: none;
 	}
 
-.introduction {
-	font: 100 14px 'Source Sans Pro', sans-serif;
-	margin-bottom: 15px;
+.note {
+	display: block;
+	clear: left;
+	font: 300 italic 14px 'Source Sans Pro', sans-serif;
 	}
 
-
-#section-dob {
-	margin-top: 30px;
-	}
-	
+/* !Input Boxes
+==================== */
 #email, #password, #password_confirmation, #profile_link {
 	width: 283px;
-	height: 30px;
 	margin-bottom: 10px;
 	padding-left: 10px;
 	border: 1px solid #0C86C7;
@@ -100,7 +130,6 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 
 #field-profile-link {
 	position: relative;
-	width: 300px;
 	}
 	
 .profile-link-prefix, #preview {
@@ -114,14 +143,15 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 .profile-link-prefix {
 	left: 0;
 	}
-	
-#dob_clear {
-	overflow: hidden;
+
+/* !Select Menus
+==================== */
+#section-dob {
+	margin-top: 30px;
 	}
 
 .styled-select {
     width: 90px;
-    height: 30px;
     overflow: hidden;
     background: url('../images/arrow.gif') no-repeat right, #E8F0F4;
     background: url('../images/arrow.gif') no-repeat right, #E8F0F4;
@@ -135,28 +165,11 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 .styled-select select {
     background: transparent;
     border: none;
-    height: 30px;
     width: 180px;
-}
-
-.note {
-	display: block;
-	clear: left;
-	font: 300 italic 14px 'Source Sans Pro', sans-serif;
 	}
 
-legend {
-	font: 600 14px 'Source Sans Pro', sans-serif;
-	}
-
-input[type="checkbox"] {
-	width: 20px;
-	float: left;
-	appearance: none;
-	border: 1px solid #0C86C7;
-	background-color: #E8F0F4;
-	}
-
+/* !Agree Statement
+==================== */
 #field-agree-tos {
 	margin-top: 15px;
 	}
@@ -169,14 +182,19 @@ input[type="checkbox"] {
 	font: 600 14px 'Source Sans Pro', sans-serif;
 	}
 	
+/* !Submit Button
+==================== */
 #submit {
 	float: right;
 	margin: 10px 8px 0 0;
 	border: none;
-	height: 30px;
 	width: 90px;
     background: #F2CC21;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: inset 1px 1px 1px 1px rgba(255,255,255,.3), 1px 1px 0px 0px rgba(0,0,0,.3);
+    box-shadow: inset 1px 1px 0 0 rgba(255,255,255,.3), 1px 1px 0 0 rgba(0,0,0,.3);
     }
+
+#submit:hover {
+	background: #FFDB3F;
+	}
