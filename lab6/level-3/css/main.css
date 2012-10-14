@@ -191,7 +191,6 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 	width: 120px;
 	font-size: 16px;
 	color: #E8F0F4;
-	text-shadow: 1px 1px #00375E;
     background: #005B9C;
     border-radius: 3px;
     cursor: pointer;
