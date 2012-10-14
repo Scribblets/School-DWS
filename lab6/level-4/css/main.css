@@ -29,18 +29,16 @@ body {
 
 #container {
 	width: 550px;
-	margin: 50px 0 0 50px;
-	background: -moz-linear-gradient(top, #90C921, #325914);
-	background: linear-gradient(top, #90C921, #325914);
-	border-radius: 15px;
-	}
-
-form {
-	width: 550px;
+	margin: 15px 0 0 30px;
+	background: -moz-linear-gradient(top, #90C921, #4F7C18);
+	background: linear-gradient(top, #90C921, #4F7C18);
+	border-radius: 3px;
+	box-shadow: 2px 2px 0 0 #000;
 	}
 
 h1, label, legend {
 	padding-left: 25px;
+	text-shadow: 1px 1px #000;
 	}
 
 h1 {
@@ -52,7 +50,7 @@ h1 {
 label, legend {
 	font: 400 22px 'Mountains of Christmas', cursive;
 	text-transform: capitalize;
-	color: #FFF;
+	color: #F2F9E8;
 	display: inline-block;
 	width: 145px;
 	margin: 15px 15px 0 0;
@@ -62,7 +60,7 @@ label, legend {
 
 .section {
 	display: block;
-	width: 700px;
+	width: 550px;
 	float: left;
 	clear: left;
 	}
@@ -70,6 +68,9 @@ label, legend {
 input, select, textarea {
 	float: left;
 	margin-top: 15px;
+	font: 18px 'Lato', sans-serif;
+	color: #FFFF40;
+	padding-left: 5px;
 	}
 
 input[type="text"] {
@@ -78,43 +79,70 @@ input[type="text"] {
 	border-style: none;
 	border: 1px solid #004900;
 	background-color: #88b834;
-	}
-
-#your_photo {
-	position: absolute;
-	top: 0;
-	left: 185px;
-	opacity: .5;
-	height: 35px;
-	z-index: 2;
-	width: 332px;
-	font: 400 17px 'Lato', sans-serif;
+	text-align: center;
 	}
 
 #file-upload {
 	position: relative;
-	width: 332px;
+	width: 330px;
+	height: 35px;
+	}
+	
+#your_photo {
+	position: absolute;
+	left: 235px;
+	height: 35px;
+	opacity: 0;
+	z-index: 2;
+	font: 400 17px 'Lato', sans-serif;
 	}
 
-#file-image {
-	background-image: url('../images/file.gif');
-	}
-
-#file-image input {
-	width: 332px;
+#faux-input {
+	background: url('../images/file.png') no-repeat right, #88b834;
+	border: 1px solid #004900;
 	}
 	
 textarea {
 	border-style: none;
 	border: 1px solid #004900;
 	background-color: #88b834;
+	width: 330px;
+	height: 100px;
+	padding-top: 5px;
+	}
+
+textarea:focus, input:focus {
+	background-color: #AAD35F;
+	text-shadow: 1px 1px #000;
+	}
+
+.styled-select {
+	background: url('../images/arrow.png') no-repeat right, #88b834;
+	border: 1px solid #004900;
+	height: 35px;
+	width: 105px;
+	float: left;
+	overflow: hidden;
+	margin: 10px 8px 0 0;
+	line-height: -30px;
+	}
+
+.styled-select select {
+	background: transparent;
+	font-size: 16px;
+    border: none;
+    height: 35px;
+    margin: 0;
+    padding-top: 5px;
+    width: 130px;
 	}
 
 label[for="female"], label[for="male"] {
 	float: left;
 	padding: 0;
-	margin: 0;
-	font: 400 14px 'Lato', sans-serif;
+	margin: 0 10px 0 0;
+	font: 400 16px/40px 'Lato', sans-serif;
+	text-shadow: none;
 	}
 
 label[for="female"] {
@@ -125,15 +153,40 @@ label[for="male"] {
 	width: 27px;
 	}
 
+input[type="radio"] {
+	margin-right: 40px;
+	}
+
+.faux-radio {
+	background-image: url('../images/arrow.png');
+	}
+
 #gender-position {
-	margin-top: 5px;
+	margin-top: 10px;
 	}
 
 .note {
 	font: 400 italic 14px 'Lato', sans-serif;
-
+	display: block;
+	clear: left;
+	color: #F2F9E8;
+	margin-left: 185px;
 	}
 
 label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 	display: none;
+	}
+	
+#submit {
+	width: 205px;
+	height: 55px;
+	color: #88B834;
+	margin: 20px 30px;
+	font: 700 32px 'Mountains of Christmas', cursive;
+	text-shadow: 1px 1px #565619;
+	border-radius: 3px;
+	float: right;
+	background-color: #ffff40;
+	border-style: none;
+	box-shadow: 2px 2px 0 0 #000;
 	}
