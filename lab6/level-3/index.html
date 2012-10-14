@@ -6,12 +6,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,300italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css" />
 	<script type="text/javascript" charset="utf-8">
-		$(function(){
-			$('#profile_link').keyup(function(){
-				$('#preview').text($(this).val());
-			});
-		});
-	</script>
+
+   $(document).ready(function()
+   {
+    $('#profile_link').bind("keypress keydown", function(event) {
+     $('#preview').text($('#profile_link').attr("value"));
+    });
+
+   });
+ </script>
 	<title>Fancy Form Design: Sign Up</title>
 	
 	<!-- CSS -->
@@ -50,7 +53,7 @@
 				<!-- Profile Link -->
 				<div id="field-profile-link">
 					<label id="profile_link_text" for="profile_link">Your profile link</label>
-					<span class="profile-link-prefix">fitandawesome.com/</span><span id="preview"></span>
+					<span class="profile-link-prefix">fitandawesome.com/</span><span id="preview">Test</span>
 					<input type="text" name="profile_link" id="profile_link" class="required" />
 				</div>
 				

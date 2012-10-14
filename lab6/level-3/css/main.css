@@ -100,13 +100,18 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 
 #field-profile-link {
 	position: relative;
+	width: 300px;
 	}
 	
-.profile-link-prefix {
+.profile-link-prefix, #preview {
 	font-size: 13px;
 	font: 300 italic 14px 'Source Sans Pro', sans-serif;
 	position: absolute;
 	top: 54px;
+	left: 120px;
+	}
+
+.profile-link-prefix {
 	left: 0;
 	}
 	
