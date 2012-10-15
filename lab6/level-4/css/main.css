@@ -101,12 +101,14 @@ input[type="text"] {
 
 textarea {
 	height: 100px;
+	resize: none;
 	}
 	
-textarea:focus, input[type="text"]:focus {
+textarea:focus, input[type="text"]:focus,
+textarea:hover, input[type="text"]:hover {
 	background-color: #AAD35F;
 	}
-
+	
 #your_photo {
 	position: absolute;
 	left: 235px;
