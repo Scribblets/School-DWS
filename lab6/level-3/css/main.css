@@ -123,7 +123,8 @@ label[for="dob_month"], label[for="dob_day"], label[for="dob_year"] {
 	color: #8E8E8E;
 	}
 
-#email:focus, #password:focus, #password_confirmation:focus, #profile_link:focus {
+#email:focus, #password:focus, #password_confirmation:focus, #profile_link:focus,
+#email:hover, #password:hover, #password_confirmation:hover, #profile_link:hover {
 	border: 1px solid #F2CC21;
 	color: #2E2E2E;
 	}

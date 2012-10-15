@@ -65,7 +65,7 @@ input[type="text"] {
 	background: url('../images/input.png'), rgba(255,255,255,0);
 	}
 
-input[type="text"]:focus {
+input[type="text"]:focus, input[type="text"]:hover {
 	background: url('../images/input_focus.png'), rgba(255,255,255,0);
 	}
 
@@ -83,7 +83,7 @@ textarea {
 	background: url('../images/textarea.png') no-repeat, rgba(255,255,255,0);
 	}
 
-textarea:focus {
+textarea:focus, textarea:hover {
 	background: url('../images/textarea_focus.png') no-repeat, rgba(255,255,255,0);
 	}
 
