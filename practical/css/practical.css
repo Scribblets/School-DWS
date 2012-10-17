@@ -1,0 +1,96 @@
+html, body, div, h1, h2, h3, h4, 
+p, ul, li, a, strong, em {
+	margin: 0;
+	padding: 0;
+	}
+
+/* !Layout
+==================== */
+body {
+	background: url('../img/bg_overlay.png') top right no-repeat, #003C88;
+	}
+
+#wrapper, #footer {
+	width: 760px;
+	margin-left: auto;
+	}
+
+
+/* !Header
+==================== */
+#header {
+	margin-top: 30px;
+	overflow: hidden;
+	}
+
+#header h1 {
+	background: url('../img/bg_logo.png') no-repeat;
+	display: block;
+	width: 246px;
+	height: 73px;
+	text-indent: -9999px;
+	float: left;
+	margin-right: 30px;
+	}
+
+#header h2 {
+	font: 16px 'Helvetica', sans-serif;
+	color: #CDF8FF;
+	line-height: 73px;
+	}
+
+
+/* !Navigation
+==================== */
+#nav {
+	list-style: none;
+	width: 244px;
+	height: 124px;
+	overflow: hidden;
+	}
+
+#nav li {
+	float: left;
+	}
+	
+#nav li {
+	display: block;
+	width: 244px;
+	height: 30px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/bg_nav.png') top left no-repeat;
+	}
+
+#process:link {
+	background-position: 0 0;
+	}
+
+#process:hover {
+	background-position: -244px 0;
+	}
+
+#function:link {
+	background-position: 1px -30px;
+	}
+
+#function:hover {
+	background-position: -244px -31px;
+	}
+
+#future:link {
+	background-position: 0 -60px;
+	}
+
+#future:hover {
+	background-position: -244px -62px;
+	}
+
+#engage:link {
+	background-position: 0 -90px;
+	}
+
+#engage:hover {
+	background-position: -244px -93px;
+	}
